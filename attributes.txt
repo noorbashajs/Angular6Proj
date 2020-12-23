@@ -1,0 +1,14 @@
+*ngFor= let element of elements
+[ngclass:firstsecond:third:]
+a=1 class=a1
+b=1 class=b1
+<div [ngclass]={a1:1,b1:1}
+
+
+</div>
+
+<img src="image1.jpg" onerror="this.src='/none.jpg'" />
+<img src="j2.jpg"/>
+<img src="foo.jpg" onerror="if (this.src != 'error.jpg') this.src = 'error.jpg';">
+
+
